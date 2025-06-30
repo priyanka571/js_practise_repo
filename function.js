@@ -37,3 +37,12 @@
 // Multiple instances: You can create as many instances as needed.
 // Independent state: Each instance has its own separate state and properties.
 // No global access: Unlike singletons, non-singleton objects do not enforce a global instance and are typically instantiated when needed.
+
+
+// ++++++++Loop++++++
+for(let i=0;i<10;i++)
+{
+    const elem = i;
+    console.log(elem);
+    
+}
